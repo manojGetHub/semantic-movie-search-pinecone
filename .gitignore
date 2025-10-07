@@ -1,0 +1,89 @@
+# -----------------------------
+# Python & FastAPI Project
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.pot
+*.mo
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# OS generated
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+data/*.csv
+data/*.parquet
+data/*.json
+!data/.gitkeep
+
+# Configuration / Credentials
+.env.example         # keep sample
+.env                 # ignore real one
+*.key
+*.pem
+*.pkl
+
+# -----------------------------
+# Cache & logs
+# -----------------------------
+.cache/
+pytest_cache/
+__snapshots__/
+logs/
+*.log
+
+# -----------------------------
+# Notebooks / Temporary
+# -----------------------------
+.ipynb_checkpoints
+*.ipynb
+*.bak
+*.tmp
+
+# -----------------------------
+# Pytest / Coverage
+# -----------------------------
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+
+# -----------------------------
+# Mac / System
+# -----------------------------
+*.swp
+*.swo
+*~

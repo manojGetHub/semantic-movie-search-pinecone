@@ -17,7 +17,7 @@ cp .env.example .env  # add your Pinecone key + region
 python -m src.create_index
 python -m src.ingest
 python -m src.query "jazz love story in Los Angeles"
-uvicorn src.api:app --reload
+uvicorn src.webapp:app --reload --port 8000
 ```
 
 

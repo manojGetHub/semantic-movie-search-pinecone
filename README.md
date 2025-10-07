@@ -18,5 +18,8 @@ python -m src.create_index
 python -m src.ingest
 python -m src.query "jazz love story in Los Angeles"
 uvicorn src.api:app --reload
+```
 
-## Screenshots
+
+## Screenshot
+![alt text](image.png)

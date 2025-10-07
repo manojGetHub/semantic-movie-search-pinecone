@@ -2,6 +2,8 @@
 
 A minimal end-to-end **semantic search** app using **Pinecone serverless** and **all-MiniLM-L6-v2** embeddings.
 
+🚀 Semantic Movie Search using FastAPI, Sentence Transformers, and Pinecone Vector DB
+
 ## Features
 - Serverless Pinecone index (cosine, 384-dim)
 - Local, free embeddings (no paid API)

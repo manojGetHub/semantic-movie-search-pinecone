@@ -1,5 +1,3 @@
-# semantic-movie-search-pinecone
-End-to-end semantic search (ingest → index → query) using Hugging Face embeddings (no paid API required) and Pinecone serverless 
 # Semantic Movie Search (Pinecone + SentenceTransformers)
 
 A minimal end-to-end **semantic search** app using **Pinecone serverless** and **all-MiniLM-L6-v2** embeddings.

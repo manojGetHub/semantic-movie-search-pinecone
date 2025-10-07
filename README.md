@@ -19,3 +19,4 @@ python -m src.ingest
 python -m src.query "jazz love story in Los Angeles"
 uvicorn src.api:app --reload
 
+## Screenshots

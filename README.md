@@ -13,7 +13,7 @@ A minimal end-to-end **semantic search** app using **Pinecone serverless** and *
 
 ## Quickstart
 ```bash
-python -m venv .venv && source .venv/bin/activate
+conda create --name dev python=3.10
 pip install -r requirements.txt
 cp .env.example .env  # add your Pinecone key + region
 python -m src.create_index

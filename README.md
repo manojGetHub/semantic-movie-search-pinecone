@@ -24,4 +24,10 @@ uvicorn src.webapp:app --reload --port 8000
 
 
 ## Screenshot
+# Web app
 ![alt text](image.png)
+
+# Pinecone 
+![alt text](image-1.png)
+
+![alt text](image-2.png)
